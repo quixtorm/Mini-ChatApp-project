@@ -1,3 +1,7 @@
+/**
+ * @Author: Ruzikulov Nodirbek
+ * @Description: Simple Console ChatApp
+ */
 package frontend;
 
 import backend.User;

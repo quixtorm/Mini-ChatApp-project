@@ -51,8 +51,10 @@ public class User implements UserService, Serializable {
 
         data.put(email,password);
 
+
         //Writing every information to a file "users.txt"
         saveUserToFile(name,email,password);
+        System.out.println("Registration completed successfully! Please login in order to text messages!");
     }
 
     @Override
